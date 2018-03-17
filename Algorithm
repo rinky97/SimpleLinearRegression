@@ -1,0 +1,18 @@
+Here we use the concept of one independent variable and one dependent variable.
+Independent Variable: Years of Experience.
+Dependent Variable: Salary
+
+A Linear Regression Model works on the principal of linear dependence via the equation
+    y = b0 + b1*(x)
+    
+    y: dependent variable (Salary)
+    b0: constant
+    b1: coeffient of x, slope of equation
+    x: independent variable (Years of experience)
+    
+The model aims at obtaining a linear line which can map the given salaries closely, it tries to fit the values by minimising the value of
+
+min((y-y')^2)
+where y = actual salary
+      y' = the salary obtained by the linear regressor line.
+    
